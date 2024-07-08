@@ -1,5 +1,5 @@
 {
-    "name": "BrokerageCheap/meta-five",
+    "name": "brokeragecheap/meta-five",
     "description": "Metatrader 5 Web API Wrapper for Laravel",
     "type": "library",
     "license": "MIT",
