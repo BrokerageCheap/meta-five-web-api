@@ -1,6 +1,6 @@
 <?php
 
-namespace AleeDhillon\MetaFive;
+namespace brokeragecheap\MetaFive;
 
 use Illuminate\Support\ServiceProvider;
 
