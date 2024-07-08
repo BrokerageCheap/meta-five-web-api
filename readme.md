@@ -8,14 +8,14 @@ This is Laravel 8.x package wrapper library for Metatrader 5 Web API
 
 ### Packagist
 
-[https://packagist.org/packages/brokeragecheap/meta-five-web-api](https://packagist.org/packages/brokeragecheap/meta-five-web-api).
+[https://packagist.org/packages/BrokerageCheap/meta-five](https://packagist.org/packages/BrokerageCheap/meta-five).
 
 ### Installing
 
 To install the package, in terminal:
 
 ```
-composer require brokeragecheap/meta-five-web-api
+composer require BrokerageCheap/meta-five
 ```
 
 ### Configure
@@ -23,7 +23,7 @@ composer require brokeragecheap/meta-five-web-api
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
 ```
-brokeragecheap\MetaFive\MetaFiveProvider::class,
+BrokerageCheap\MetaFive\MetaFiveProvider::class,
 ```
 
 #### Copy the package config to your local config with the publish command:
@@ -48,8 +48,8 @@ MT5_SERVER_WEB_PASSWORD=
 You can withdraw money by giving negetive number to the same `trade` method.
 
 ```php
-use AleeDhillon\MetaFive\Entities\Trade;
-use AleeDhillon\MetaFive\Facades\Client;
+use BrokerageCheap\MetaFive\Entities\Trade;
+use BrokerageCheap\MetaFive\Facades\Client;
 
 $trade = new Trade();
 $trade->setLogin(6000189);
@@ -64,8 +64,8 @@ The result variable will return Trade class with ticket information, you can gra
 ### Create User
 
 ```php
-use AleeDhillon\MetaFive\Entities\User;
-use AleeDhillon\MetaFive\Facades\Client;
+use BrokerageCheap\MetaFive\Entities\User;
+use BrokerageCheap\MetaFive\Facades\Client;
 
 $user = new User();
 $user->setName("John Doe");
@@ -88,7 +88,7 @@ $result = Client::createUser($user);
 ### Get Trading Account Information
 
 ```php
-use AleeDhillon\MetaFive\Facades\Client;
+use BrokerageCheap\MetaFive\Facades\Client;
 
 $user = Client::getTradingAccounts($login);
 
@@ -100,7 +100,7 @@ $freeMargin = $user->MarginFree;
 ### Get Trading History By Login Number
 
 ```php
-use AleeDhillon\MetaFive\Facades\Client;
+use BrokerageCheap\MetaFive\Facades\Client;
 
 // Get Closed Order Total and pagination
 $total = Client::getOrderHistoryTotal($exampleLogin, $timestampfrom, $timestampto);
@@ -115,7 +115,7 @@ foreach ($trades as $trade) {
 ### Open Order
 
 ```php
-use AleeDhillon\MetaFive\Facades\Client;
+use BrokerageCheap\MetaFive\Facades\Client;
 Client::dealerSend([
     'Login' => 8113,
     'Symbol' => 'XAUUSD',

@@ -1,6 +1,6 @@
 <?php
 
-namespace AleeDhillon\MetaFive\Lib;
+namespace BrokerageCheap\MetaFive\Lib;
 /**
  * Class get deals
  */

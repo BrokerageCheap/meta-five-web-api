@@ -1,12 +1,12 @@
 <?php
 
 
-namespace AleeDhillon\MetaFive\Entities;
+namespace BrokerageCheap\MetaFive\Entities;
 
 
 /**
  * Class User
- * @package AleeDhillon\MetaFive\Entities
+ * @package BrokerageCheap\MetaFive\Entities
  */
 class User
 {

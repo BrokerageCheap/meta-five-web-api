@@ -1,12 +1,12 @@
 <?php
 
 
-namespace AleeDhillon\MetaFive\Entities;
+namespace BrokerageCheap\MetaFive\Entities;
 
 
 /**
  * Class Trade
- * @package AleeDhillon\MetaFive\Entities
+ * @package BrokerageCheap\MetaFive\Entities
  */
 class Trade
 {

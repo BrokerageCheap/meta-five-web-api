@@ -1,7 +1,7 @@
 <?php
 
 
-namespace AleeDhillon\MetaFive\Lib;
+namespace BrokerageCheap\MetaFive\Lib;
 
 //+------------------------------------------------------------------+
 //|                                             MetaTrader 5 Web API |

@@ -1,6 +1,6 @@
 <?php
 
-namespace AleeDhillon\MetaFive\Exceptions;
+namespace BrokerageCheap\MetaFive\Exceptions;
 
 use Exception;
 

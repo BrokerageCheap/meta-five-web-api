@@ -1,8 +1,8 @@
 <?php
 
-namespace AleeDhillon\MetaFive\Lib;
+namespace BrokerageCheap\MetaFive\Lib;
 
-use AleeDhillon\MetaFive\Lib\MTOrderJson;
+use BrokerageCheap\MetaFive\Lib\MTOrderJson;
 /**
  * Class get history
  */

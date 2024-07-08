@@ -1,31 +1,31 @@
 <?php
 
 
-namespace brokeragecheap\MetaFive;
+namespace BrokerageCheap\MetaFive;
 
-use brokeragecheap\MetaFive\Entities\Trade;
-use brokeragecheap\MetaFive\Entities\User;
-use brokeragecheap\MetaFive\Exceptions\ConnectionException;
-use brokeragecheap\MetaFive\Exceptions\TradeException;
-use brokeragecheap\MetaFive\Exceptions\UserException;
-use brokeragecheap\MetaFive\Lib\MTAuthProtocol;
-use brokeragecheap\MetaFive\Lib\MTConnect;
-use brokeragecheap\MetaFive\Lib\MTLogger;
-use brokeragecheap\MetaFive\Lib\MTRetCode;
-use brokeragecheap\MetaFive\Lib\MTTradeProtocol;
-use brokeragecheap\MetaFive\Lib\MTUser;
-use brokeragecheap\MetaFive\Lib\MTUserProtocol;
-use brokeragecheap\MetaFive\Lib\MTOrderProtocol;
-use brokeragecheap\MetaFive\Lib\MTEnDealAction;
-use brokeragecheap\MetaFive\Lib\MTHistoryProtocol;
-use brokeragecheap\MetaFive\Lib\MTOrder;
-use brokeragecheap\MetaFive\Lib\MTPositionProtocol;
-use brokeragecheap\MetaFive\Lib\MTPosition;
-use brokeragecheap\MetaFive\Traits\Deal;
-use brokeragecheap\MetaFive\Lib\MTDealProtocol;
-use brokeragecheap\MetaFive\Lib\MTGroupProtocol;
-use brokeragecheap\MetaFive\Entities\Order;
-use brokeragecheap\MetaFive\Lib\CMT5Request;
+use BrokerageCheap\MetaFive\Entities\Trade;
+use BrokerageCheap\MetaFive\Entities\User;
+use BrokerageCheap\MetaFive\Exceptions\ConnectionException;
+use BrokerageCheap\MetaFive\Exceptions\TradeException;
+use BrokerageCheap\MetaFive\Exceptions\UserException;
+use BrokerageCheap\MetaFive\Lib\MTAuthProtocol;
+use BrokerageCheap\MetaFive\Lib\MTConnect;
+use BrokerageCheap\MetaFive\Lib\MTLogger;
+use BrokerageCheap\MetaFive\Lib\MTRetCode;
+use BrokerageCheap\MetaFive\Lib\MTTradeProtocol;
+use BrokerageCheap\MetaFive\Lib\MTUser;
+use BrokerageCheap\MetaFive\Lib\MTUserProtocol;
+use BrokerageCheap\MetaFive\Lib\MTOrderProtocol;
+use BrokerageCheap\MetaFive\Lib\MTEnDealAction;
+use BrokerageCheap\MetaFive\Lib\MTHistoryProtocol;
+use BrokerageCheap\MetaFive\Lib\MTOrder;
+use BrokerageCheap\MetaFive\Lib\MTPositionProtocol;
+use BrokerageCheap\MetaFive\Lib\MTPosition;
+use BrokerageCheap\MetaFive\Traits\Deal;
+use BrokerageCheap\MetaFive\Lib\MTDealProtocol;
+use BrokerageCheap\MetaFive\Lib\MTGroupProtocol;
+use BrokerageCheap\MetaFive\Entities\Order;
+use BrokerageCheap\MetaFive\Lib\CMT5Request;
 use stdClass;
 
 //+------------------------------------------------------------------+

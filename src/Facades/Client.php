@@ -1,11 +1,11 @@
 <?php
 
-namespace AleeDhillon\MetaFive\Facades;
+namespace BrokerageCheap\MetaFive\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \AleeDhillon\MetaTrader\MetaTrader
+ * @see \BrokerageCheap\MetaTrader\MetaTrader
  */
 class Client extends Facade
 {

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace AleeDhillon\MetaFive\Lib;
+namespace BrokerageCheap\MetaFive\Lib;
 
-use AleeDhillon\MetaFive\Lib\MTConSymbol;
-use AleeDhillon\MetaFive\Lib\MTEnOrderFlags;
+use BrokerageCheap\MetaFive\Lib\MTConSymbol;
+use BrokerageCheap\MetaFive\Lib\MTEnOrderFlags;
 
 /**
  * Class for send request group_total, group_next, group_get

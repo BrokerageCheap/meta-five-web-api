@@ -1,14 +1,14 @@
 <?php
 
 
-namespace AleeDhillon\MetaFive\Traits;
+namespace BrokerageCheap\MetaFive\Traits;
 
 
-use AleeDhillon\MetaFive\Lib\MTRetCode;
-use AleeDhillon\MetaFive\Exceptions\ConnectionException;
-use AleeDhillon\MetaFive\Exceptions\UserException;
-use AleeDhillon\MetaFive\Lib\MTDealProtocol;
-use AleeDhillon\MetaFive\Lib\MTDeal;
+use BrokerageCheap\MetaFive\Lib\MTRetCode;
+use BrokerageCheap\MetaFive\Exceptions\ConnectionException;
+use BrokerageCheap\MetaFive\Exceptions\UserException;
+use BrokerageCheap\MetaFive\Lib\MTDealProtocol;
+use BrokerageCheap\MetaFive\Lib\MTDeal;
 
 trait Deal
 {

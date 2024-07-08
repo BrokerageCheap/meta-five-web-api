@@ -1,6 +1,6 @@
 <?php
 
-namespace AleeDhillon\MetaFive\Entities;
+namespace BrokerageCheap\MetaFive\Entities;
 
 
 class Order

@@ -1,5 +1,5 @@
 <?php
-namespace AleeDhillon\MetaFive\Lib;
+namespace BrokerageCheap\MetaFive\Lib;
 
 class MTOrderProtocol
 {

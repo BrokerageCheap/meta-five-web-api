@@ -1,5 +1,5 @@
 <?php
-namespace AleeDhillon\MetaFive\Lib;
+namespace BrokerageCheap\MetaFive\Lib;
 //+------------------------------------------------------------------+
 //|                                             MetaTrader 5 Web API |
 //|                   Copyright 2001-2019, MetaQuotes Software Corp. |
