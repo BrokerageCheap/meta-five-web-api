@@ -1,0 +1,27 @@
+{
+    "name": "brokeragecheap/meta-five-web-api",
+    "description": "Metatrader 5 Web API Wrapper for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brokerage Cheap",
+            "email": "mabbasvu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AleeDhillon\\MetaFive\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "brokeragecheap\\meta-five-web-api\\MetaFiveProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    }
+}
