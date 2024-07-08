@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "AleeDhillon\\MetaFive\\": "src/"
+            "brokeragecheap\\meta-five-web-api\\": "src/"
         }
     },
     "extra": {
