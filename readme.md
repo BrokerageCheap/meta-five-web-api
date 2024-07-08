@@ -8,14 +8,14 @@ This is Laravel 8.x package wrapper library for Metatrader 5 Web API
 
 ### Packagist
 
-[https://packagist.org/packages/aleedhillon/meta-five](https://packagist.org/packages/aleedhillon/meta-five).
+[https://packagist.org/packages/brokeragecheap/meta-five-web-api](https://packagist.org/packages/brokeragecheap/meta-five-web-api).
 
 ### Installing
 
 To install the package, in terminal:
 
 ```
-composer require aleedhillon/meta-five
+composer require brokeragecheap/meta-five-web-api
 ```
 
 ### Configure
@@ -23,7 +23,7 @@ composer require aleedhillon/meta-five
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
 ```
-AleeDhillon\MetaFive\MetaFiveProvider::class,
+brokeragecheap\MetaFive\MetaFiveProvider::class,
 ```
 
 #### Copy the package config to your local config with the publish command:
